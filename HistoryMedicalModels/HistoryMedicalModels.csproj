@@ -30,7 +30,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,12 +50,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Allergies.cs" />
+    <Compile Include="CirculatorySystem.cs" />
     <Compile Include="CityModel.cs" />
     <Compile Include="ClientModel.cs" />
     <Compile Include="CountryModel.cs" />
     <Compile Include="DepartmentModel.cs" />
+    <Compile Include="DigestiveSystem.cs" />
+    <Compile Include="Diseases.cs" />
     <Compile Include="DoctorModel.cs" />
+    <Compile Include="FamilyBackground.cs" />
+    <Compile Include="HistoryMedicalModel.cs" />
+    <Compile Include="MuscleSystem.cs" />
+    <Compile Include="NervousSystem.cs" />
+    <Compile Include="PersonalHistoryPathological.cs" />
+    <Compile Include="PhysicalExploration.cs" />
+    <Compile Include="Pregnancy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RespiratorySystem.cs" />
+    <Compile Include="SurgicalIntervention.cs" />
+    <Compile Include="Transfusions.cs" />
+    <Compile Include="UrinarySystem.cs" />
+    <Compile Include="VisitMedical.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
