@@ -10,5 +10,6 @@ namespace HistoryMedicalModels
         public int IdDepartment { get; set; }
         //llave externa
         public int prueba { get; set; }
+        public int MyProperty { get; set; }
     }
 }
