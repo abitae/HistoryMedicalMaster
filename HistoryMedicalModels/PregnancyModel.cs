@@ -11,7 +11,5 @@
         public DateTime PregnancyWeeks { get; set; }//Semanas de Embarazo
         public string Symptom { get; set; }//Sintomas
         public string Background { get; set; }//Antecedentes
-        
-
     }
 }

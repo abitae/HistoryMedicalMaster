@@ -13,6 +13,6 @@
         public DateTime SurgicalDate { get; set; }
         public string SurgicalComplications { get; set; }
         //Llave Foranea
-        public int IdClient { get; set; }
+        public int IdHistoryMedical { get; set; }
     }
 }

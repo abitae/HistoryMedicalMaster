@@ -8,11 +8,10 @@
     public class PersonalHistoryPathologicalModel
     {
         public int IdPersonalHistoryPathological { get; set; }
-        public bool SurgicalIntervention { get; set; }
         public string SurgicalInterventionDetail { get; set; }
         public DateTime SurgicalInterventionDate { get; set; }
-        public string complications { get; set; }
+        public string Complications { get; set; }
         //Llave Foranea
-        public int IdClient { get; set; }
+        public int IdHistoryMedical { get; set; }
     }
 }
