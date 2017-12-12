@@ -19,7 +19,7 @@
         public bool Cancer { get; set; }//Cancer
 
         //Llave Foranea
-        public int IdClient { get; set; }
+        public int IdHistoryMedical { get; set; }
 
     }
 }

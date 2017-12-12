@@ -5,7 +5,7 @@
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    public class SurgicalInterventionModel
+    public class SurgicalInterventionModel //Intervencion quirurgica
     {
         [Key]
         public int IdSurgicalIntervention { get; set; }

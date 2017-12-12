@@ -14,6 +14,6 @@
         public DateTime AdmissionDate { get; set; }//Fecha de ingreso
         public DateTime UpdateDate { get; set; }//Fecha de Modificacion ultima
        //Llave foranea
-       public int IdClient { get; set; }
+        public int IdClient { get; set; }
     }
 }

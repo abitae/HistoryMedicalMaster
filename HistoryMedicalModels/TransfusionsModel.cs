@@ -14,6 +14,6 @@
         public DateTime TransfusionsDate { get; set; }
         public string TransfusionsComplications { get; set; }
         //Llave Foranea
-        public int IdClient { get; set; }
+        public int IdHistoryMedical { get; set; }
     }
 }

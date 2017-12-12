@@ -12,6 +12,6 @@
         public string ControlMedication { get; set; }//Medicamento de control
         public string DiseasesComplications { get; set; }//Complicaciones
         //Llave foranea
-        public int IdClient { get; set; }
+        public int IdHistoryMedical { get; set; }
     }
 }
