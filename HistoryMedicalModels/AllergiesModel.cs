@@ -5,10 +5,10 @@
     public class AllergiesModel
     {
         [Key]
-        public int IdTransfusions { get; set; }
+        public int IdAllergies { get; set; }
         public string AllergiesReason { get; set; }//Alergia motivo
         public DateTime AllergiesDate { get; set; }
          //Llave Foranea
-        public int IdClient { get; set; }
+        public int IdHistoryMedical { get; set; }
     }
 }

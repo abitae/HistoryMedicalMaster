@@ -17,8 +17,9 @@
         public string MailAddress { get; set; }
         public string Phone { get; set; }
         public string BloodType { get; set; }//Grupo Sanguineo
-        public int City { get; set; }
-        public int Departament  { get; set; }
-        public int Country { get; set; }
+        //Llave foraneas
+        public int IdCity { get; set; }
+        public int IdDepartament  { get; set; }
+        public int IdCountry { get; set; }
     }
 }

@@ -13,6 +13,7 @@
         public string CodeHistoryMedical { get; set; }
         public DateTime AdmissionDate { get; set; }//Fecha de ingreso
         public DateTime UpdateDate { get; set; }//Fecha de Modificacion ultima
-       
+       //Llave foranea
+       public int IdClient { get; set; }
     }
 }
