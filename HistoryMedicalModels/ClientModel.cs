@@ -17,6 +17,9 @@
         public string MailAddress { get; set; }
         public string Phone { get; set; }
         public string BloodType { get; set; }//Grupo Sanguineo
+        public decimal UbicationX { get; set; }
+        public decimal Ubicationy { get; set; }
+
         //Llave foraneas
         public int IdCity { get; set; }
         public int IdDepartament  { get; set; }

@@ -15,5 +15,8 @@
         public decimal Pressure { get; set; } //Presion
         public decimal HeartRate { get; set; } //Frecuencia Cardiaca
         public decimal BreathingFrequency { get; set; } //Frecuencia Cardiaca
+    
+    public int IdHistoryMedical { get; set; }
+    
     }
 }

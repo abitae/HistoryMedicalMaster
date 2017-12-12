@@ -15,8 +15,11 @@
         public DateTime BirthDate { get; set; }//Fecha de Nacimiento
         public string MailAddress { get; set; }
         public string Phone { get; set; }
-        public int City { get; set; }
-        public int Departament { get; set; }
-        public int Country { get; set; }
+        public decimal UbicationX { get; set; }
+        public decimal Ubicationy { get; set; }
+        //Llave Foranea
+        public int IdCity { get; set; }
+        public int IdDepartament { get; set; }
+        public int IdCountry { get; set; }
     }
 }

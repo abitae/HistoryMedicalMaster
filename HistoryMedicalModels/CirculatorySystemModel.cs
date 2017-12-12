@@ -12,6 +12,7 @@
       public bool Dizziness { get; set; }//Mareos
       public bool Numbness { get; set; }//Adormecimiento
       public bool Cramps { get; set; }//Calambres
-
+      //Llave Foranea
+      public int IdHistoryMedical { get; set; }
     }
 }

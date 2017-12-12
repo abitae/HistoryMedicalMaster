@@ -9,5 +9,7 @@
         public bool Cough { get; set; }//Tos
         public bool BreastPain { get; set; }//dolor de Pecho
         public bool Backache { get; set; }//Dolor de Espalda
+    
+        public int IdHistoryMedical { get; set; }
     }
 }

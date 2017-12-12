@@ -12,5 +12,7 @@
        public bool Sickness { get; set; }//Nauseas
        public bool Deworm { get; set; }//Desparacitado
        public string DewormDetail { get; set; }
+       //Llave
+       public int IdHistoryMedical { get; set; }
     }
 }
