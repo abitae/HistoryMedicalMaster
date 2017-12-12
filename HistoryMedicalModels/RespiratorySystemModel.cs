@@ -1,10 +1,7 @@
 ﻿namespace HistoryMedicalModels
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    using System.ComponentModel.DataAnnotations;
     public class RespiratorySystemModel
     {
         [Key]
@@ -12,4 +9,5 @@
         public bool Cough { get; set; }//Tos
         public bool BreastPain { get; set; }//dolor de Pecho
         public bool Backache { get; set; }//Dolor de Espalda
+    }
 }
