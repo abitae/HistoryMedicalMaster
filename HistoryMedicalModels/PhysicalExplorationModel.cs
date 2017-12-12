@@ -1,10 +1,9 @@
-﻿
-namespace HistoryMedicalModels
+﻿namespace HistoryMedicalModels
 {
     using System;
     using System.ComponentModel.DataAnnotations;
 
-    class PhysicalExploration
+    public class PhysicalExplorationModel
     {
         [Key]
         public int IdPhysicalExploration { get; set; }

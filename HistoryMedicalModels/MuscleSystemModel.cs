@@ -1,9 +1,7 @@
-﻿
-
-namespace HistoryMedicalModels
+﻿namespace HistoryMedicalModels
 {
     using System.ComponentModel.DataAnnotations;
-    public class MuscleSystem
+    public class MuscleSystemModel
     {
         [Key]
         public int IdMuscleSystem { get; set; }

@@ -1,5 +1,4 @@
-﻿
-namespace HistoryMedicalModels
+﻿namespace HistoryMedicalModels
 {
     using System;
     using System.ComponentModel.DataAnnotations;

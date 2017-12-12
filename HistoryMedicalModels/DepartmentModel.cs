@@ -1,8 +1,6 @@
-﻿
-namespace HistoryMedicalModels
+﻿namespace HistoryMedicalModels
 {
     using System.ComponentModel.DataAnnotations;
-
     public class DepartmentModel
     {
         [Key]

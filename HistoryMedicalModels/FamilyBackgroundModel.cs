@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HistoryMedicalModels
+﻿namespace HistoryMedicalModels
 {
-    public class FamilyBackground
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    public class FamilyBackgroundModel
     {
         public int IdFamilyBackground { get; set; }
         public string Relationship { get; set; }

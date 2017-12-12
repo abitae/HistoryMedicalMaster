@@ -1,10 +1,8 @@
-﻿
-
-namespace HistoryMedicalModels
+﻿namespace HistoryMedicalModels
 {
     using System;
     using System.ComponentModel.DataAnnotations;
-    public class Diseases
+    public class DiseasesModel
     {
         [Key]
         public int IdDiseases { get; set; }

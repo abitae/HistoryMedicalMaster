@@ -1,6 +1,4 @@
-﻿
-
-namespace HistoryMedicalModels
+﻿namespace HistoryMedicalModels
 {
     using System;
     using System.Collections.Generic;

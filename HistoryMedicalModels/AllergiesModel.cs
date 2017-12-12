@@ -1,10 +1,8 @@
-﻿
-
-namespace HistoryMedicalModels
+﻿namespace HistoryMedicalModels
 {
     using System;
     using System.ComponentModel.DataAnnotations;
-    public class Allergies
+    public class AllergiesModel
     {
         [Key]
         public int IdTransfusions { get; set; }

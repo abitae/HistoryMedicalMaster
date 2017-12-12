@@ -1,13 +1,9 @@
-﻿
-
-namespace HistoryMedicalModels
+﻿namespace HistoryMedicalModels
 {
     using System;
     using System.ComponentModel.DataAnnotations;
-
-    public class Pregnancy
+    public class PregnancyModel
     {
-        
         [Key]
         public int IdPregnancy { get; set; } //Embarazo
         public DateTime LastRuleDate { get; set; }//Ultima Regla

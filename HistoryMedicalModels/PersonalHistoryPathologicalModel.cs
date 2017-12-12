@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HistoryMedicalModels
+﻿namespace HistoryMedicalModels
 {
-    public class PersonalHistoryPathological
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    public class PersonalHistoryPathologicalModel
     {
         public int IdPersonalHistoryPathological { get; set; }
         public bool SurgicalIntervention { get; set; }
